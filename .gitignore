@@ -4,3 +4,6 @@
 
 *.suo
 /.vs
+/FsWebTests/GiraffeHost/bin/Debug
+/FsWebTests/GiraffeHost/obj
+/FsWebTests/packages
