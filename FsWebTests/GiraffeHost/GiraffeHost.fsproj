@@ -81,12 +81,12 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="Program.fs" />
-    <None Include="App.config" />
     <Content Include="packages.config" />
     <None Include="libuv.dll">
       <Link>libuv.dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
